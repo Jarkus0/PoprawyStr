@@ -1,0 +1,49 @@
+body {
+    font-family: Verdana;
+    background-color: darkkhaki;
+    margin: 0;
+}
+
+.header, .footer {
+    background-color: olivedrab;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.non_necesary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: seagreen;
+    border: none;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 5px;
+    color: white;
+}
+
+.login-title {
+    display: flex;
+    justify-content: center;
+    background-color: olivedrab;
+    padding: 5px;
+}

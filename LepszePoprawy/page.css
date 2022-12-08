@@ -1,0 +1,112 @@
+html, body {
+    margin: 0;
+    background-color: darkkhaki;
+    font-family: Verdana;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer-title {
+    flex-shrink: 0;
+}
+
+.header-title, .footer-title {
+    display: flex;
+    justify-content: center;
+    background-color: darkolivegreen;
+    margin: auto;
+    padding: 15px;
+    color: white;
+    width: 98.4%;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    flex-direction: column;
+}
+
+.login-title {
+    color: white;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-input {
+    margin: 15px;
+}
+
+.link {
+    margin: 30px;
+    background-color: lightgreen;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+    max-width: 150px;
+}
+
+.login-button {
+    margin: 30px;
+    background-color: lightgreen;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 100px;
+}
+
+.theform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thecontent {
+    display: flex;
+    flex-direction: row;
+}
+
+.thebutton {
+    display: flex;
+    align-items: center;
+}
+
+a:link, .login-button:link {
+    text-decoration: none;
+}
+
+.link:hover, .login-button:hover {
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
+.link:active, .login-button:active {
+    background-color: chartreuse;
+}
+
+a {
+    color: black;
+}
+
+.fullcontent {
+    margin: 30px;
+    background-color:darkolivegreen;
+    font-weight: bolder;
+    padding: 100px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
